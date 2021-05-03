@@ -8,6 +8,15 @@ body{
 .footer{
     height : 40px;
     padding-left : 45%;
+    background-color: white;
+}
+.footer p {
+    color : #23049d;
+    
+    font-weight: bolder;
+}
+.footer p span{
+    color : #cf0000;
 }
 
 .container{
@@ -16,6 +25,7 @@ body{
     grid-template-columns: 1fr 1fr;
     height:548px;
     margin-bottom: 2.5%;
+    
 }
 h1{
     color: #6c63ff; 
@@ -36,9 +46,10 @@ h3{
     
     text-align: right;
     background-color: black;
-    font-size: large;
+    font-size: 20px;
     padding-right: 12%;
     padding-top: 1.6%;
+    padding-bottom: 1.4%;
     
 
 }
