@@ -35,7 +35,7 @@ img{
     align-items: center;
     margin: 0% 12%;
 }
-h1{
+h2,span{
     color: #6c63ff; 
 }
 h3{
@@ -151,11 +151,21 @@ input {
   body{
         font-size:1.2em;
     }
+    .nav-bar{
+        font-size:0.7em;
+        padding: 0.5em;
+
+    }
 }
 
 @media screen and (max-width:640px){
     
     body{
         font-size:.8em;
+    }
+    nav-bar{
+        font-size:0.7em;
+        padding: 0.5em;
+        
     }
 }
