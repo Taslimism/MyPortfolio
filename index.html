@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <script src="/script.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="https://kit.fontawesome.com/69aab8073d.js" crossorigin="anonymous"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
       rel="stylesheet"
@@ -17,6 +19,8 @@
     <div class="nav-bar">
       <a href="#">Home</a>
       <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#blogs">Blogs</a>
       <a href="#education">Education</a>
       <a href="#contact-me">Hire Me</a>
     </div>
@@ -24,30 +28,24 @@
     <div class="container">
       <div class="img">
         <img
-          src="/images/undraw_Web_developer_re_h7ie.svg"
+          src="/images/undraw_version_control_re_mg66.svg"
           alt="Image of a person coding/programming"
         />
       </div>
-
-      <div >
-        <p class="intro">Hey! I am Taslim Raza Ansari. <span style="opacity: 1">👋</span> <br> An Engineer.</p>
-        
+      <div class = "into">
+        <h2 class="intro">Hey! I am Taslim Raza Ansari. <span style="opacity: 1">👋</span> An Engineer.</h2>
       </div>
     </div>
 
-    <h1 style="padding-left: 12%;margin-top: 5%;">About Me</h1>
+    <h3 style="padding-left: 12%;margin-top: 5%;">About Me</h3>
     <div class="about-me">
       
-      <p>Currently working as an Associate Software Engineer at Accenture (Sep-2020 - Present)</p>
       <p>
-        Bachelor in Electronics and Communication Engineering. Possess sound
-        understanding in the basic areas of Computer Science such as Algorithms,
-        Data Structures, Object Oriented Design, Databases Good written and oral
-        communication skills, a fast learner and have the ability to adapt
-        quickly to a fast-paced development environment.
+        Bachelor in <b>Electronics and Communication Engineering.</b> Possess sound
+        understanding in the basic areas of Computer Science such as <b> Algorithms,
+        Data Structures, Object Oriented Design, Databases</b>.
+        quickly.
       </p>
-      
-
       <p>
         I love solving problems through code. Hope to get into a fast paced
         development environment which forces me to learn and upgrade my skills
@@ -55,127 +53,80 @@
       </p>
     </div>
 
-    <h1 style="padding-left: 12%;" id = "projects">Projects</h1>
+    <h3 style="padding-left: 12%;" id = "projects">Projects</h3>
     <div class="projects" >
-        <div>
-
-            <h3><strong>Voice Assistant using Python programming (07/2019 – 08/2019)</strong></h3>
-            <p><a href="https://github.com/Taslimism/miniproject.git">GitHub Link</a></p>
-            <p class = "proj">
-                
-                <ul>
-                   <li>
-                        <p>
-                        Users can perform various operations like Searching for YouTube videos,
-                        Wikipedia articles over the web.This assistant can also communicate with OS.
-                        </p>
-                   </li> 
-                    <li>
-                        <p>
-                        This helped get fluent in using Google libraries along with Python programming.
-                        </p>
-                    </li>
-                </ul>
-                    
-
-            </p>
-            
-        </div>
-        
-        <div>
-            <h3> <strong>Restaurant Web App using Spring MVC in JAVA (07/2020 – 08/2020)</strong></h3>
-            <!--<p><a href="#projects">Link Unavailable</a></p>-->
-            <div></div>
-            <p class = "proj">
-                <ul>
-                    <li>
-                        <p>
-                        Users can order food of their choice from the frontend, post which they will be displayed 
-                        a Thank You message along with the amount they need to pay. 
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            It uses SQL database to store
-                            types of Pizza available along with their toppings and price.
-                        </p>
-                    </li>
-                </ul>
-                        
-            </p>
-            
-        </div>  
-
-        <div>
-            <h3><strong>Command Line Interface Quiz App using JavaScript(04/2020 – 04/2020)</strong></h3>
-            <p><a href="https://github.com/Taslimism/F.R.I.E.N.D.S-Quiz-App.git">GitHub Link</a></p>
-            <p class = "proj">
-                <ul>
-                    <li>
-                        <p>
-                            Users can play this quiz and based on their response they are rewarded points. Even if they answer
-                            any question wrong, they are shown correct answers.
-                        </p>
-                    </li>
-
-                    <li>
-                        <p>
-                            I learnt 
-                            using JavaScript objects and functions while dooing this project.
-                        </p>
-                    </li>
-                        
-                </ul>
-                       
-            </p>
-            
-        </div>
+      <p>Do you want to see my Projects?</p>
+      <input type="button" value="My Projects" id="projbut">
         
     </div>
+    <h3 id="skills" style="padding-left: 12%;">Skills</h3>
+    <div class="skill">
+     
+      <p>Have a look at my skills.</p>
+      <blockquote>
+        <p>HTML5</p>
+        <p>CSS3</p>
+        <p>JavaScript</p>
+        <p>Java</p>
+        <p>C Programming</p>
+        <p>NodeJS</p>
+        <p>React</p>
+        <p>Adobe Illustrator</p>
+      </blockquote>
+          
+    </div>
 
-    <h1 id="education" style="padding-left: 12%;">Education</h1>
+    <h3 id="blogs" style="padding-left: 12%;">Blogs</h3>
+    <div class="blogs">
+     
+      <p> I like sharing about everything I've learned to help others. Wanna have a look at my blogs?</p>
+      <input type="button" value="Read My blogs" id="blogbut">
+      
+    </div>
+
+    <h3 id="education" style="padding-left: 12%;">Education</h3>
     <div class="education" >
-        
 
         <h3>Graduation</h3> 
         <blockquote>
-            College: Narula Institute of Technology <br>
-            DGPA: 8.12 <br>
-            Specialization: Bachelor of Technology in the domain Electronics and Communication<br>
-            University: Maulana Abul Kalam Azad University
+          <p>College: Narula Institute of Technology</p>
+          <p>DGPA: 8.12</p>
+          <p>Specialization: Bachelor of Technology in the domain Electronics and Communication</p>
+          <p>University: Maulana Abul Kalam Azad University</p>
+            
         </blockquote>
     	
 
         <h3>Class 12</h3> 
         <blockquote>
-            School: Denobili School, Mugma <br>
-    	    Percentage: 86 <br>
-    	    Board: ISC <br>
+          <p>School: Denobili School, Mugma</p>
+          <p>Percentage: 86</p>
+          <p>Board: ISC</p>
+          
         </blockquote>
     	
 
         <h3>Class 10</h3>
         <blockquote>
-            School: Denobili School, Mugma <br>
-            Percentage: 77 <br>
-            Board: ICSE <br>
+          <p>School: Denobili School, Mugma</p>
+          <p>Percentage: 77</p>
+          <p>Board: ICSE</p>
         </blockquote>
-        
-
-
-
     </div>
 
-    <h1 id="contact-me" style="padding-left: 12%;">Contact</h1>
+    <h3 id="contact-me" style="padding-left: 12%;">Contact</h3>
     <div class = "contact-me" >
-        <img src="/images/pp.png" alt="My profile Photo" align="left">
+        <img src="/images/pp.png" alt="My Profile pic">
+        <p>Drop a <a href="mailto:imtas00@gmail.com" target="_top"><input class="demo" type="button" value="mail"> </a> </p>
+        <p>Contact Number : <b>+917980628401</b></p>
+        <div>
+          <a href="https://twitter.com/Taslimism"><img src="/images/twitter.png" alt=""></a>
+          <a href="https://linkedin.com/in/taslimrazaansari"><img src="/images/linkedin.png" alt=""></a>
+          <a href="https://github.com/Taslimism"><img src="/images/github.png" alt=""></a>
+          <a href="https://www.instagram.com/t_a_s_l_i_m1/"><img src="/images/instagram.png" alt=""></a>
+        </div>
         
-       <p>Email: imtas00@gmail.com</p> 
-
-       <p>LinkedIn: https://www.linkedin.com/in/taslimrazaansari</p> 
-
-       <p>Twitter:  https://twitter.com/Taslimism</p> 
+        
 
     </div>
 
