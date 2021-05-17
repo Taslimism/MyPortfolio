@@ -14,10 +14,7 @@ body{
     font-size: 20px;
     padding-right: 12%;
     padding-top: 1.6%;
-    padding-bottom: 1.4%;
-    position:sticky;
-    top:0%;
-    
+    padding-bottom: 1.4%;   
 }
 .nav-bar a{
     margin:0.8em;
