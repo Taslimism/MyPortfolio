@@ -3,6 +3,7 @@ body {
   letter-spacing: 1px;
   font-family: "Roboto", sans-serif;
   background-color: #f6f6f6;
+  font-weight: 300;
 }
 
 .about-me p {
@@ -37,7 +38,7 @@ img {
 }
 h2,
 span {
-  color: #6c63ff;
+  color: #6b63ffc7;
 }
 h3 {
   color: #6c63ff;
@@ -98,7 +99,7 @@ h3 {
 }
 .projects,
 .blogs {
-  background-image: linear-gradient(to bottom, #6c63ff, black);
+  background-image: linear-gradient(to bottom, #4f47f5de, rgb(179, 178, 235));
   box-sizing: border-box;
   margin: 0% 8%;
   padding: 2% 8%;
